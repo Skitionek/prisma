@@ -46,7 +46,9 @@
     "precommit": "lint-staged",
     "prettier": "prettier --single-quote --no-semi --trailing-comma all --write '*.ts' 'src/**/*.ts'",
     "prepublishOnly": "npm run lint && npm run build",
-    "postinstall": "prisma init-prisma || echo \"\""
+    "postinstall": "prisma init-prisma || echo \"\"",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "cli-engine": {
     "bin": "prisma",
@@ -67,12 +69,14 @@
   },
   "dependencies": {
     "fs-extra": "^5.0.0",
-    "prisma-cli-core": "1.0.37",
-    "prisma-cli-engine": "1.0.37",
+    "prisma-cli-core": "1.22.0",
+    "prisma-cli-engine": "1.22.0",
     "semver": "^5.4.1",
-    "source-map-support": "^0.4.18"
+    "source-map-support": "^0.4.18",
+    "snyk": "^1.379.0"
   },
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "snyk": true
 }
