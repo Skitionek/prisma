@@ -78,7 +78,7 @@
   },
   "dependencies": {
     "adm-zip": "^0.5.2",
-    "archiver": "^2.0.3",
+    "archiver": "^5.0.0",
     "callsites": "^2.0.0",
     "chalk": "^2.3.0",
     "chokidar": "^1.7.0",
@@ -90,7 +90,7 @@
     "figures": "^2.0.0",
     "find-up": "^2.1.0",
     "fs-extra": "^5.0.0",
-    "globby": "^6.1.0",
+    "globby": "^11.0.0",
     "graphcool-inquirer": "^1.0.3",
     "graphql": "^0.13.1",
     "graphql-config": "^2.0.1",
