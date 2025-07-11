@@ -97,7 +97,7 @@
     "graphql-config-extension-prisma": "^0.0.12",
     "graphql-playground-middleware-express": "^1.6.2",
     "inquirer": "^7.0.5",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "js-yaml": "^3.9.1",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.4",
